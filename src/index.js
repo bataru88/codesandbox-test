@@ -8,3 +8,13 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 `;
+
+const name = "aaa";
+const age = 28;
+console.log(name);
+
+//テンプレート文字列を用いる
+const message2 = `私の名前は${name}です`;
+console.log(message2);
+
+//アロー関数
